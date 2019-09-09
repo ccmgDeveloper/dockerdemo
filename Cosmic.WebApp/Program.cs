@@ -21,7 +21,7 @@ namespace Cosmic.WebApp
             WebHost.CreateDefaultBuilder(args)
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseKestrel()
-                .UseUrls("http://localhost:60452/")
+                .UseUrls("http://localhost:8080/")
                 .UseStartup<Startup>()
                 .Build();
     }
