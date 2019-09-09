@@ -1,0 +1,9 @@
+
+
+gitbash: cd C:/Code/GitHub/Private/BasicWebApp
+
+
+cd C:\Code\GitHub\Private\BasicWebApp\Cosmic.WebApp
+cd C:\Code\GitHub\Private\BasicWebApp\Cosmic.WebApp\wwwroot
+
+
