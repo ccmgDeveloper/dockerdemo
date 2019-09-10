@@ -1,6 +1,7 @@
 FROM microsoft/aspnetcore:2.0 AS base
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 8080/tcp
+EXPOSE 8080/udp
 
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
